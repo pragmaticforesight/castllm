@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "castllm"
+version = "0.1.0"
+description = "An LLM chat CLI + more"
+authors = ["Brandon W. King"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+openai = "^0.28.1"
+rich = "^13.6.0"
+python-dotenv = "^1.0.0"
+
+[tool.poetry.group.dev.dependencies]
+ipython = "^8.16.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
